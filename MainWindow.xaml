@@ -1,0 +1,8 @@
+<Window x:Class="CryptoFinder.MainWindow"
+        ...>
+  <Grid>
+    <TextBox Name="txtBlockHash" />
+    <Button Name="btnBuscarBloque" Content="Buscar Bloque" Click="btnBuscarBloque_Click"/>
+    <!-- Otros controles: importar wallet, retiro, validación, etc -->
+  </Grid>
+</Window>
